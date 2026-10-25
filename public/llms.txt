@@ -1,0 +1,27 @@
+# pymlkit
+
+> pymlkit is a small, dependency-free Python library for neural networks (multi-layer perceptrons) with a C core. Dense feed-forward networks, mini-batch SGD, binary weight import/export. MIT licensed. Install with `pip install pymlkit`.
+
+pymlkit has one class, `Network`, with seven methods: `add_dense`, `set_loss`, `fit`, `forward`, `backward`, `export` and `load`. Activations: ReLU, Sigmoid, Softmax, Linear. Losses: HalfMSE, CrossEntropy. It runs on CPU only and supports dense layers only today. Convolutional and recurrent networks are planned; none has a date.
+
+## Docs
+
+- Introduction: /docs/introduction/
+- Installation: /docs/installation/
+- Quickstart: /docs/quickstart/
+- Network API reference: /docs/network/
+- Activations: /docs/activations/
+- Losses: /docs/losses/
+- Training: /docs/training/
+- Saving and loading: /docs/saving-loading/
+- Custom loops: /docs/custom-loops/
+- Notes and limits: /docs/notes/
+
+## Try it
+
+- Browser playground (Pyodide, nothing to install): /try/
+
+## Links
+
+- Source: https://github.com/JeryGPT/Multi-Layer-Perceptron-Kit
+- PyPI: https://pypi.org/project/pymlkit/
